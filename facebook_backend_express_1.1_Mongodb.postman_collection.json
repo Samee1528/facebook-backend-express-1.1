@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "d3bd422b-0553-4e8a-be04-71961b141bd3",
-		"name": "Facebook_Backend-Express_Mongodb",
+		"name": "facebook_backend_express_1.1_Mongodb",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -15,7 +15,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "        {\r\n            \"first_name\":\"Praveen\" ,\r\n            \"sur_name\":\"Kawshitha\" ,\r\n            \"Gender\":\"male\" ,\r\n            \"date_of_birth\":\"2001-09-14\" ,\r\n            \"password\":\"Kawshitha\" ,\r\n            \"contact\":\"0763785218\" ,\r\n            \"email\":\"praveen@gmail.com\" \r\n        }",
+							"raw": "        {\r\n            \"first_name\":\"Dinesh\" ,\r\n            \"sur_name\":\"Kosala\" ,\r\n            \"Gender\":\"male\" ,\r\n            \"date_of_birth\":\"2001-10-10\" ,\r\n            \"password\":\"kosala\" ,\r\n            \"contact\":\"0706354625\" ,\r\n            \"email\":\"kosalasampath1528@gmail.com\" \r\n        }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -23,7 +23,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:5000/user",
+							"raw": "http://127.0.0.1:5001/user",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -31,7 +31,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user"
 							]
@@ -46,7 +46,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n            \"first_name\":\"Praveen\" ,\r\n            \"sur_name\":\"Kawshitha Fdo\" ,\r\n            \"Gender\":\"male\" ,\r\n            \"date_of_birth\":\"2001-09-14\" ,\r\n            \"password\":\"Kawshitha\" ,\r\n            \"contact\":\"0763785218\" ,\r\n            \"email\":\"praveenkawshika@gmail.com\" \r\n        }",
+							"raw": "{\r\n            \"first_name\":\"Dinesh\" ,\r\n            \"sur_name\":\"Kosala\" ,\r\n            \"Gender\":\"male\" ,\r\n            \"date_of_birth\":\"2001-10-10\" ,\r\n            \"password\":\"kosala\" ,\r\n            \"contact\":\"0706354625\" ,\r\n            \"email\":\"kosalasampath1528@gmail.com\" \r\n        }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -54,7 +54,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:5000/user/630333a8e49625b6b77b72ae",
+							"raw": "http://127.0.0.1:5001/user/630333a8e49625b6b77b72ae",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -62,7 +62,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user",
 								"630333a8e49625b6b77b72ae"
@@ -77,7 +77,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/user/U001",
+							"raw": "http://127.0.0.1:5001/user/U001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -85,7 +85,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user",
 								"U001"
@@ -100,7 +100,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/user/U001",
+							"raw": "http://127.0.0.1:5001/user/U001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -108,7 +108,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user",
 								"U001"
@@ -123,7 +123,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/user",
+							"raw": "http://127.0.0.1:5001/user",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -131,7 +131,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user"
 							]
@@ -145,7 +145,7 @@
 						"method": "POST",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/user/praveenkawshika@gmail.com/Kawshitha",
+							"raw": "http://127.0.0.1:5001/user/kosalasampath1528@gmail.com/kosala",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -153,11 +153,11 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"user",
-								"praveenkawshika@gmail.com",
-								"Kawshitha"
+								"kosalasampath1528@gmail.com",
+								"kosala"
 							]
 						}
 					},
@@ -183,7 +183,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:5000/post",
+							"raw": "http://127.0.0.1:5001/post",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -191,7 +191,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"post"
 							]
@@ -214,7 +214,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://127.0.0.1:5000/post/6303a31382eac32765f13e16",
+							"raw": "http://127.0.0.1:5001/post/6303a31382eac32765f13e16",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -222,7 +222,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"post",
 								"6303a31382eac32765f13e16"
@@ -237,7 +237,7 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/post/6303a31382eac32765f13e16",
+							"raw": "http://127.0.0.1:5001/post/6303a31382eac32765f13e16",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -245,7 +245,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"post",
 								"6303a31382eac32765f13e16"
@@ -260,7 +260,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/post/U001",
+							"raw": "http://127.0.0.1:5001/post/U001",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -268,7 +268,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"post",
 								"U001"
@@ -283,7 +283,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://127.0.0.1:5000/post",
+							"raw": "http://127.0.0.1:5001/post",
 							"protocol": "http",
 							"host": [
 								"127",
@@ -291,7 +291,7 @@
 								"0",
 								"1"
 							],
-							"port": "5000",
+							"port": "5001",
 							"path": [
 								"post"
 							]
@@ -307,7 +307,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://127.0.0.1:5000",
+					"raw": "http://127.0.0.1:5001",
 					"protocol": "http",
 					"host": [
 						"127",
@@ -315,7 +315,7 @@
 						"0",
 						"1"
 					],
-					"port": "5000"
+					"port": "5001"
 				}
 			},
 			"response": []

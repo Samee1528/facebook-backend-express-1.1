@@ -5,7 +5,7 @@ const user=require('./routes/user')
 const posts=require('./routes/post')
 
 const app = express()
-const port = 5000
+const port = 5001
 
 const url = 'mongodb://127.0.0.1/facebookclone'
 
